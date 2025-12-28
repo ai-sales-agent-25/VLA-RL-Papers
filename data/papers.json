@@ -166,5 +166,52 @@
     ],
     "filename": "VideoVLA Video Generators Can Be Generalizable Robot Manipulators.pdf",
     "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Systems and Scale/VideoVLA Video Generators Can Be Generalizable Robot Manipulators.pdf"
+  },
+  {
+    "title": "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",
+    "category": "Semantic Reasoning (The \"Thinkers\")",
+    "bottleneck": "Complexity",
+    "justification": "The paper addresses the 'temporal myopia' of Markovian VLA models by introducing a bidirectional reasoning framework. It moves beyond simple reactive policies by implementing a 'think-while-acting' paradigm where the model explicitly reasons about past dynamics (hindsight) and future motion trajectories (foresight) to maintain coherence in long-horizon tasks. This focus on structured temporal context and goal-directed behavior rather than purely reactive responses aligns with the 'Thinkers' category's emphasis on high-level reasoning and planning.",
+    "evidence": "\"think-while-acting,\" \"bidirectional temporal reasoning,\" \"temporal myopia,\" \"long-horizon coherence,\" \"foresight reasoning,\" \"hindsight-modulated joint expert.\"",
+    "key_concepts": [
+      "Motion Vectors (MVs)",
+      "Hindsight Priors",
+      "Foresight Reasoning",
+      "Long-horizon Coherence",
+      "Bidirectional Temporal Context"
+    ],
+    "filename": "HiF-VLA Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Semantic Reasoning/HiF-VLA Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models.pdf"
+  },
+  {
+    "title": "Token Expand-Merge: Training-Free Token Compression for Vision-Language-Action Models",
+    "category": "Speed & Deployment (The \"Fast Movers\")",
+    "bottleneck": "Latency",
+    "justification": "The paper focuses on the 'Latency Wall' by addressing the computational overhead of large-scale VLA models during real-time inference. It introduces TEAM-VLA, a framework designed to accelerate inference speed through token pruning and merging without requiring retraining or parameter updates. By reducing the number of visual tokens processed by the Transformer backbone, it achieves a 1.5x speedup, making it more practical for high-frequency, closed-loop robotic control.",
+    "evidence": "\"accelerates VLA inference,\" \"real-time deployment,\" \"1.5x speedup,\" \"CUDA latency,\" \"computational efficiency,\" \"low-latency control scenarios,\" and \"on-device robotics.\"",
+    "key_concepts": [
+      "Token Compression",
+      "Inference Acceleration",
+      "Training-Free",
+      "Bipartite Merging",
+      "Token Pruning"
+    ],
+    "filename": "Token Expand-Merge Training-Free Token Compression for Vision-Language-Action Models.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Speed & Deployment/Token Expand-Merge Training-Free Token Compression for Vision-Language-Action Models.pdf"
+  },
+  {
+    "title": "GLaD: Geometric Latent Distillation for Vision-Language-Action Models",
+    "category": "Robustness & Reliability (The \"Shields\")",
+    "bottleneck": "Generalization",
+    "justification": "GLaD is primarily concerned with overcoming the 'memorization' trap common in VLA models, where policies rely on superficial 2D semantic patterns (CLIP/SigLIP) and fail under visual perturbations. By distilling 3D geometric priors into the LLM hidden states, the model achieves significantly higher robustness to out-of-distribution (OOD) visual variations\u2014such as changes in object color, texture, and size\u2014while maintaining the same geometric structure. It specifically uses the LIBERO-PRO robustness benchmark to prove that geometric awareness acts as a 'shield' against the performance collapses typically seen in messy or visually shifted environments.",
+    "evidence": "\"substantial robustness to visual appearance variations,\" \"LIBERO-PRO robustness benchmark,\" \"object perturbations (color, texture, size),\" \"genuine task understanding versus mere memorization,\" \"policy generalization beyond pattern matching.\"",
+    "key_concepts": [
+      "Knowledge Distillation",
+      "3D Geometric Priors",
+      "Visual Perturbation Robustness",
+      "Spatial Reasoning"
+    ],
+    "filename": "GLaD Geometric Latent Distillation for Vision-Language-Action Models.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Robustness & Reliability/GLaD Geometric Latent Distillation for Vision-Language-Action Models.pdf"
   }
 ]
