@@ -52,5 +52,20 @@
     ],
     "filename": "Real-Time Execution of Action Chunking Flow Policies.pdf",
     "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Speed and Deployment/Real-Time Execution of Action Chunking Flow Policies.pdf"
+  },
+  {
+    "title": "VLASH: Real-Time VLAs via Future-State-Aware Asynchronous Inference",
+    "category": "Speed and Deployment",
+    "summary": "VLASH is a general asynchronous inference framework for Vision-Language-Action models that eliminates action stalls and reduces reaction latency by conditioning predictions on estimated future robot states through state roll-forward and temporal-offset fine-tuning.",
+    "key_concepts": [
+      "Asynchronous Inference",
+      "Future-State-Awareness",
+      "Temporal Misalignment",
+      "State Roll-forward",
+      "Action Quantization",
+      "Temporal-Offset Augmentation"
+    ],
+    "filename": "VLASH Real-Time VLAs via Future-State-Aware Asynchronous Inference.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Speed and Deployment/VLASH Real-Time VLAs via Future-State-Aware Asynchronous Inference.pdf"
   }
 ]
