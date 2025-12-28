@@ -67,5 +67,33 @@
     ],
     "filename": "VLASH Real-Time VLAs via Future-State-Aware Asynchronous Inference.pdf",
     "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Speed and Deployment/VLASH Real-Time VLAs via Future-State-Aware Asynchronous Inference.pdf"
+  },
+  {
+    "title": "SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models",
+    "category": "Algorithmic Foundations",
+    "summary": "SRPO introduces a self-referential reinforcement learning framework for VLA models that mitigates reward sparsity by using in-batch successful trajectories and latent world representations to provide dense, progress-wise rewards for failed attempts.",
+    "key_concepts": [
+      "Self-Referential Policy Optimization",
+      "Vision-Language-Action (VLA) Models",
+      "Latent World Representations",
+      "Progress-wise Reward Modeling",
+      "Reinforcement Learning Post-training"
+    ],
+    "filename": "SRPO Self-Referential Policy Optimization for Vision-Language-Action Models.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Algorithmic Foundations/SRPO Self-Referential Policy Optimization for Vision-Language-Action Models.pdf"
+  },
+  {
+    "title": "DEAS: DETACHED VALUE LEARNING WITH ACTION SEQUENCE FOR SCALABLE OFFLINE RL",
+    "category": "Systems and Scale | Algorithmic Foundations",
+    "summary": "DEAS is an offline RL framework that leverages action sequences within an options framework and employs detached value learning to improve performance and stability on complex, long-horizon manipulation tasks.",
+    "key_concepts": [
+      "Action Sequences",
+      "Detached Value Learning",
+      "Offline Reinforcement Learning",
+      "Options Framework (SMDP)",
+      "Vision-Language-Action Models (VLAs)"
+    ],
+    "filename": "DEAS DEtached value learning with Action Sequence for Scalable Offline RL.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Systems and Scale | Algorithmic Foundations/DEAS DEtached value learning with Action Sequence for Scalable Offline RL.pdf"
   }
 ]
