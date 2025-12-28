@@ -81,5 +81,48 @@
     ],
     "filename": "DEAS DEtached value learning with Action Sequence for Scalable Offline RL.pdf",
     "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Systems and Scale | Algorithmic Foundations/DEAS DEtached value learning with Action Sequence for Scalable Offline RL.pdf"
+  },
+  {
+    "title": "Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment",
+    "category": "Speed and Deployment",
+    "summary": "Evo-1 is a 0.77 billion parameter Vision-Language-Action model that achieves state-of-the-art robotic manipulation performance using an efficient cross-modulated diffusion transformer and a two-stage training paradigm designed for real-time deployment.",
+    "key_concepts": [
+      "Lightweight VLA model",
+      "Cross-modulated diffusion transformer",
+      "Two-stage training paradigm",
+      "Semantic alignment preservation",
+      "Real-time robotic control"
+    ],
+    "filename": "Evo-1 Lightweight Vision-Language-Action Model with Preserved Semantic Alignment.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Speed and Deployment/Evo-1 Lightweight Vision-Language-Action Model with Preserved Semantic Alignment.pdf"
+  },
+  {
+    "title": "HiMoE-VLA: Hierarchical Mixture-of-Experts for Generalist Vision-Language-Action Policies",
+    "category": "Systems and Scale",
+    "summary": "HiMoE-VLA introduces a hierarchical mixture-of-experts architecture to effectively manage heterogeneity in large-scale robotic datasets, enabling robust generalization across diverse embodiments and action spaces.",
+    "key_concepts": [
+      "Hierarchical Mixture-of-Experts (HiMoE)",
+      "Vision-Language-Action (VLA) models",
+      "Cross-embodiment learning",
+      "Action-Space Regularization",
+      "Flow-matching"
+    ],
+    "filename": "HiMoE-VLA Hierarchical Mixture-of-Experts for Generalist Vision-Language-Action Policies.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Systems and Scale/HiMoE-VLA Hierarchical Mixture-of-Experts for Generalist Vision-Language-Action Policies.pdf"
+  },
+  {
+    "title": "Training-Time Action Conditioning for Efficient Real-Time Chunking",
+    "category": "Speed and Deployment",
+    "summary": "The paper proposes replacing computationally expensive inference-time inpainting in real-time chunking with training-time action conditioning, which simulates inference delays during training to improve reactive robot control without additional inference overhead.",
+    "key_concepts": [
+      "Real-time chunking (RTC)",
+      "Vision-language-action models (VLAs)",
+      "Training-time action conditioning",
+      "Inference delay simulation",
+      "Flow matching",
+      "Asynchronous execution"
+    ],
+    "filename": "Training-Time Action Conditioning for Efficient Real-Time Chunking.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Speed and Deployment/Training-Time Action Conditioning for Efficient Real-Time Chunking.pdf"
   }
 ]
