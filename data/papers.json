@@ -124,5 +124,47 @@
     ],
     "filename": "Training-Time Action Conditioning for Efficient Real-Time Chunking.pdf",
     "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Speed and Deployment/Training-Time Action Conditioning for Efficient Real-Time Chunking.pdf"
+  },
+  {
+    "title": "See Once, Then Act: Vision-Language-Action Model with Task Learning from One-Shot Video Demonstrations",
+    "category": "Systems and Scale",
+    "summary": "ViVLA is a generalist robotic manipulation policy that enables one-shot task learning from a single expert video demonstration by employing a latent action tokenizer with cycle-consistency and a scalable data generation pipeline that produces nearly 900,000 expert-agent pairs.",
+    "key_concepts": [
+      "One-Shot Visual Imitation Learning",
+      "Vision-Language-Action (VLA) Model",
+      "Action-Centric Cycle-Consistency (A3C)",
+      "Parallel Decoding",
+      "Cross-embodiment Transfer"
+    ],
+    "filename": "See Once, Then Act Vision-Language-Action Model with Task Learning from One-Shot Video Demonstrations.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Systems and Scale/See Once, Then Act Vision-Language-Action Model with Task Learning from One-Shot Video Demonstrations.pdf"
+  },
+  {
+    "title": "Affordance Field Intervention: Enabling VLAs to Escape Memory Traps in Robotic Manipulation",
+    "category": "Robustness and Reliability",
+    "summary": "The paper introduces Affordance Field Intervention (AFI), a hybrid framework that integrates 3D Spatial Affordance Fields into Vision-Language-Action (VLA) models to detect and escape 'memory traps' by providing geometric guidance during out-of-distribution tasks.",
+    "key_concepts": [
+      "Memory Trap",
+      "Vision-Language-Action (VLA) Models",
+      "3D Spatial Affordance Fields (SAFs)",
+      "Out-of-Distribution (OOD) Generalization",
+      "Trajectory Rollback"
+    ],
+    "filename": "Affordance Field Intervention Enabling VLAs to Escape Memory Traps in Robotic Manipulation.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Robustness and Reliability/Affordance Field Intervention Enabling VLAs to Escape Memory Traps in Robotic Manipulation.pdf"
+  },
+  {
+    "title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+    "category": "Systems and Scale",
+    "summary": "VideoVLA transforms large-scale pre-trained video generation models into robotic manipulators by jointly predicting actions and future visual outcomes, significantly enhancing generalization to novel objects and cross-embodiment skills.",
+    "key_concepts": [
+      "Video Diffusion Transformer",
+      "Vision-Language-Action (VLA)",
+      "Dual-prediction strategy",
+      "Cross-embodiment generalization",
+      "Visual imagination"
+    ],
+    "filename": "VideoVLA Video Generators Can Be Generalizable Robot Manipulators.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Systems and Scale/VideoVLA Video Generators Can Be Generalizable Robot Manipulators.pdf"
   }
 ]
