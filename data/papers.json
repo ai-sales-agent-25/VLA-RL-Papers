@@ -1,0 +1,16 @@
+[
+  {
+    "title": "GigaBrain-0: A World Model-Powered Vision-Language-Action Model",
+    "category": "Semantic Reasoning",
+    "summary": "GigaBrain-0 is a VLA foundation model that utilizes world-model-generated data and embodied Chain-of-Thought supervision to achieve superior generalization and long-horizon reasoning for complex robotic tasks.",
+    "key_concepts": [
+      "Embodied Chain-of-Thought (CoT)",
+      "World Model-Generated Data",
+      "RGBD Input Modeling",
+      "Long-horizon Planning",
+      "Generalist Robots"
+    ],
+    "filename": "GigaBrain-0 A World Model-Powered Vision-Language-Action Model.pdf",
+    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Semantic Reasoning/GigaBrain-0 A World Model-Powered Vision-Language-Action Model.pdf"
+  }
+]
