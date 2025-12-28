@@ -26,20 +26,6 @@
     "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Speed and Deployment/FASTer Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization.pdf"
   },
   {
-    "title": "GigaBrain-0: A World Model-Powered Vision-Language-Action Model",
-    "category": "Robustness and Reliability",
-    "summary": "This paper introduces a VLA foundation model that utilizes world model-generated data\u2014including Real2Real and view transfers\u2014to overcome real-world data scarcity and enhance policy robustness across diverse environments.",
-    "key_concepts": [
-      "World Models",
-      "Sim2Real Transfer",
-      "Real2Real Transfer",
-      "Embodied Chain-of-Thought",
-      "RGBD Input Modeling"
-    ],
-    "filename": "GigaBrain-0 A World Model-Powered Vision-Language-Action Model.pdf",
-    "github_link": "https://github.com/ai-sales-agent-25/VLA-RL-Papers/blob/main/papers/Robustness and Reliability/GigaBrain-0 A World Model-Powered Vision-Language-Action Model.pdf"
-  },
-  {
     "title": "Real-Time Execution of Action Chunking Flow Policies",
     "category": "Speed and Deployment",
     "summary": "The paper introduces Real-Time Chunking (RTC), an inference-time algorithm that enables smooth, asynchronous execution of high-latency action chunking policies by treating the generation of subsequent chunks as an inpainting problem.",
