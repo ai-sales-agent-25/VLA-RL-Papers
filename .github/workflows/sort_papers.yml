@@ -7,22 +7,29 @@ on:
 jobs:
   sort:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Crucial for pushing changes back
     steps:
       - uses: actions/checkout@v4
+      
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          
       - name: Install Dependencies
         run: pip install google-generativeai
+        
       - name: Run Sorter
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python automation/process_papers.py
-      - name: Commit changes
+        
+      - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/papers.json papers/
-          git commit -m "Automated Paper Sort: ${date}" || echo "No changes to commit"
+          # -A stages EVERYTHING (including the file removals from inbox)
+          git add -A 
+          git commit -m "Automated Paper Sort and Inbox Cleanup" || echo "No changes to commit"
           git push
