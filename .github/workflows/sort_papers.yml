@@ -1,0 +1,28 @@
+name: Auto-Sort VLA Papers
+on:
+  push:
+    paths:
+      - 'inbox/*.pdf'
+
+jobs:
+  sort:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Dependencies
+        run: pip install google-generativeai
+      - name: Run Sorter
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python automation/process_papers.py
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/papers.json papers/
+          git commit -m "Automated Paper Sort: ${date}" || echo "No changes to commit"
+          git push
